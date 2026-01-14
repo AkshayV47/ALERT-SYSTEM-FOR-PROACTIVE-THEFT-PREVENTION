@@ -6,10 +6,10 @@
 #include "soc/rtc_cntl_reg.h"
 #include "esp_camera.h"
 
-const char* ssid = "OPPO Reno8 T 5G";
-const char* password = "OPPO8T5G";
+const char* ssid = "******"; // Wifi SSID
+const char* password = "*******"; // WIfi Password
 
-String serverName = "192.168.43.155";   
+String serverName = "************"; // IP Address  
  
 
 String serverPath = "/upload";  // Flask upload route
@@ -185,3 +185,4 @@ String sendPhoto() {
   }
   return getBody;
 }
+
